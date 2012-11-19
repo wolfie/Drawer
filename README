@@ -1,0 +1,37 @@
+
+  Getting Drawer into your application
+
+The easiest way is to use the provided JAR file from the SVN. Simply drop in the JAR in
+your application's classpath and recompile your application's widgetset, and you're all set.
+
+
+  License
+  
+This component is licensed under Apache License 2.0. The copyright owner is Oy IT Mill Ltd.
+See http://www.apache.org/licenses/LICENSE-2.0.html for more details.
+
+
+  Todo
+  
+ - Remove the gwt stylename from the caption
+ - Simplify the DOM tree for the caption component
+ - More ease-out algorithms
+ - Use only one Animation class for both open/close and drawer replacement
+
+
+  Known issues
+  
+ - IE8 (hardly surprisingly) does not calculate the drawer content's size correctly
+ 
+ 
+  Ideas for future features
+  
+ - Notifying the opening or closing the container (e.g. for lazy components)
+
+
+  Changelog
+ 
+1.1
+ - Moved the component's theme into the widgetset, so that that you don't need to modify your theme at all
+ - Added the use of variables also from the server to the client
+ - Fixed a bug where a width calculation was based on height.

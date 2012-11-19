@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Vaadin-License-Title: Apache License 2.0
+Implementation-Vendor: IT Mill Oy
+Implementation-Title: Drawer
+Implementation-Version: 1.1.10
+Vaadin-Package-Version: 1
+Class-Path: 
+Vaadin-Widgetsets: org.vaadin.henrik.drawer.widgetset.DrawerApplicatio
+ nWidgetset
+

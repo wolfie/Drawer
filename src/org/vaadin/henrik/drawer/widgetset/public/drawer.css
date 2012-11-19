@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.v-drawer-caption {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+.v-drawer-caption-collapsed, .v-drawer-caption-expanded {
+	width: 8px;
+	background-image: url("img/arrows.png");
+	background-repeat: no-repeat;
+	margin: 0 2px;
+}
+
+.v-drawer-caption-collapsed {
+	background-position: left center;
+}
+
+.v-drawer-caption-expanded {
+	background-position: right center;
+}
+
+.v-drawer-content {
+	overflow: hidden;
+	background-color: #eee;
+}

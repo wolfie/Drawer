@@ -1,0 +1,7 @@
+.svn
+.classpath
+.project
+.settings/
+WebContent/VAADIN/widgetsets
+build/
+/*.jar
